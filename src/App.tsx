@@ -37,7 +37,7 @@ function HomePage() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="/contact"
-                className="inline-block bg-lotus-green text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-opacity-90 transition-all"
+                className="inline-block bg-lotus-blue-light text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-opacity-90 transition-all"
               >
                 Schedule an Appointment
               </motion.a>
@@ -70,7 +70,7 @@ function HomePage() {
                   transition={{ delay: 0.2 * index }}
                   className="bg-gray-50 p-6 rounded-lg text-center hover:shadow-lg transition-shadow"
                 >
-                  <feature.icon className="w-12 h-12 mx-auto mb-4 text-lotus-green" />
+                  <feature.icon className="w-12 h-12 mx-auto mb-4 text-lotus-blue-light" />
                   <h3 className="text-xl font-semibold mb-2 text-lotus-brown">{feature.title}</h3>
                   <p className="text-gray-600">{feature.desc}</p>
                 </motion.div>
@@ -121,7 +121,7 @@ function HomePage() {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       href="/services"
-                      className="inline-block mt-4 text-lotus-green font-semibold hover:text-opacity-80 transition-colors"
+                      className="inline-block mt-4 text-lotus-blue-light font-semibold hover:text-opacity-80 transition-colors"
                     >
                       Learn More →
                     </motion.a>

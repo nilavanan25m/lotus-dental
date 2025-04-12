@@ -72,7 +72,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-600 hover:text-lotus-green transition-colors">
+            <Link to="/" className="text-gray-600 hover:text-lotus-blue-light transition-colors">
               Home
             </Link>
             
@@ -82,7 +82,7 @@ const Navbar = () => {
               onMouseEnter={() => handleMouseEnter('services')}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="flex items-center text-gray-600 hover:text-lotus-green transition-colors">
+              <button className="flex items-center text-gray-600 hover:text-lotus-blue-light transition-colors">
                 Services
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
@@ -113,7 +113,7 @@ const Navbar = () => {
               onMouseEnter={() => handleMouseEnter('about')}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="flex items-center text-gray-600 hover:text-lotus-green transition-colors">
+              <button className="flex items-center text-gray-600 hover:text-lotus-blue-light transition-colors">
                 About Us
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
@@ -138,7 +138,7 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link to="/contact" className="text-lotus-green hover:text-lotus-green transition-colors">
+            <Link to="/contact" className="text-lotus-blue-light hover:text-lotus-blue-light transition-colors">
               Contact
             </Link>
           </div>
