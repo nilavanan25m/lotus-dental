@@ -1,6 +1,6 @@
-I'll help create a README file with TypeScript installation steps and the provided Git commands. Here's the content for `README.md`:
 
-```markdown
+
+
 # Lotus Dental Project
 
 This is a TypeScript-based project for the Lotus Dental application.
