@@ -52,7 +52,7 @@ Before you begin, ensure you have the following installed:
 ## Repository
 The source code is hosted at:  
 [https://github.com/nilavanan25m/lotus-dental.git](https://github.com/nilavanan25m/lotus-dental.git)
-```
+
 
 ### Steps to Create and Push the README
 
